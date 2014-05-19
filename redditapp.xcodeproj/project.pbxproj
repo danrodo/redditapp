@@ -19,6 +19,8 @@
 		2526A5531926794500C8EFF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2526A53B1926794400C8EFF8 /* UIKit.framework */; };
 		2526A55B1926794500C8EFF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2526A5591926794500C8EFF8 /* InfoPlist.strings */; };
 		2526A55D1926794500C8EFF8 /* redditappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526A55C1926794500C8EFF8 /* redditappTests.m */; };
+		2526A568192679B200C8EFF8 /* PostTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526A567192679B200C8EFF8 /* PostTableTableViewController.m */; };
+		2526A56B19267C2F00C8EFF8 /* RedditPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2526A56A19267C2F00C8EFF8 /* RedditPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		2526A5581926794500C8EFF8 /* redditappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "redditappTests-Info.plist"; sourceTree = "<group>"; };
 		2526A55A1926794500C8EFF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2526A55C1926794500C8EFF8 /* redditappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redditappTests.m; sourceTree = "<group>"; };
+		2526A566192679B200C8EFF8 /* PostTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableTableViewController.h; sourceTree = "<group>"; };
+		2526A567192679B200C8EFF8 /* PostTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableTableViewController.m; sourceTree = "<group>"; };
+		2526A56919267C2F00C8EFF8 /* RedditPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditPost.h; sourceTree = "<group>"; };
+		2526A56A19267C2F00C8EFF8 /* RedditPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				2526A5461926794400C8EFF8 /* AppDelegate.h */,
 				2526A5471926794400C8EFF8 /* AppDelegate.m */,
+				2526A566192679B200C8EFF8 /* PostTableTableViewController.h */,
+				2526A567192679B200C8EFF8 /* PostTableTableViewController.m */,
+				2526A56919267C2F00C8EFF8 /* RedditPost.h */,
+				2526A56A19267C2F00C8EFF8 /* RedditPost.m */,
 				2526A5491926794400C8EFF8 /* Images.xcassets */,
 				2526A53E1926794400C8EFF8 /* Supporting Files */,
 			);
@@ -240,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2526A5481926794400C8EFF8 /* AppDelegate.m in Sources */,
+				2526A56B19267C2F00C8EFF8 /* RedditPost.m in Sources */,
 				2526A5441926794400C8EFF8 /* main.m in Sources */,
+				2526A568192679B200C8EFF8 /* PostTableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
